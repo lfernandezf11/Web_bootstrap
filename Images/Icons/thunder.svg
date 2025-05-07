@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Design" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.34 11.34">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0e0027;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #fff200;
+      }
+    </style>
+  </defs>
+  <circle class="cls-2" cx="5.67" cy="5.67" r="5.67"/>
+  <path class="cls-1" d="m2.01,9.08l1.51-3.01-1.27-1.27,2.73-2.14h4.57l-2.8,2.2,1.24,1.24-5.97,2.99Zm1.2-4.22l1.09,1.09-.85,1.71,3.46-1.73-1.12-1.12,1.91-1.5h-2.5l-1.99,1.56Z"/>
+</svg>
