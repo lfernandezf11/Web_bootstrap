@@ -635,36 +635,35 @@
 
 <!-- Footer -->
 <section class="container-fluid" id="footer" style="background-color:rgb(247, 137, 59);">
-  <div class="d-flex flex-column flex-md-row align-items-start py-5 text-white px-4">
+  <div class="d-flex flex-column flex-md-row align-items-start py-5 text-white px-4 gap-4">
 
-    <div class="d-flex flex-column flex-md-row align-items-start mb-4 mb-md-0" style="flex: 1;">
-      
-      <!-- Redes sociales  -->
-      <div class="d-flex flex-column align-items-start me-md-4 gap-3">
+    <!-- Parte izquierda: Redes sociales + Logo -->
+    <div class="d-flex flex-column flex-md-row align-items-start flex-grow-1">
+
+      <!-- Redes sociales -->
+      <div class="d-flex flex-row flex-md-column gap-3 me-md-4 mb-3 mb-md-0">
         <a href="https://www.kickstarter.com/projects/carsol/vortex-of-chaos/description" target="_blank" class="text-white" alt="Kickstarter">
           <img src="../Web_bootstrap/Images/Icons/kickstarter.png" style="height: 1.6rem; width: auto; cursor:pointer;">
         </a>
-        <a href="https://www.youtube.com/watch?time_continue=46&v=zTxIUnTv8Fw&source_ve_path=Mjg2NjY" target="_blank" class="text-white" alt="YouTube">
+        <a href="https://www.youtube.com/watch?v=zTxIUnTv8Fw" target="_blank" class="text-white" alt="YouTube">
           <i class="bi bi-youtube" style="font-size: 1.5rem;"></i>
         </a>
         <a href="https://www.instagram.com/vortexof_chaos/" target="_blank" class="text-white" alt="Instagram">
           <i class="bi bi-instagram" style="font-size: 1.5rem;"></i>
         </a>
       </div>
-
-      <div class="d-flex flex-row align-items-start">
-        <!-- Logo -->
-        <div class="me-3">
-          <a href="#portada">
-            <img src="./../Web_bootstrap/Images/logo_nav.png" alt="Logo" style="height: 8rem; width: auto;">
-          </a>
-        </div>
+      
+      <!-- Logo. No se muestra en la versión móvil -->
+      <div class="d-none d-md-block">
+        <a href="#portada">
+          <img src="./../Web_bootstrap/Images/logo_nav.png" alt="Logo" style="height: 8rem; width: auto;">
+        </a>
       </div>
+
     </div>
 
-    <!-- Enlaces a secciones -->
-    <div class="d-flex flex-column align-items-end">
-      
+    <!-- Parte derecha: Enlaces a secciones -->
+    <div class="d-flex flex-column align-items-md-end align-items-start">
       <a href="#aboutUs" class="text-white text-decoration-none mb-2">Sobre Nosotros</a>
       <a href="#queHacemos" class="text-white text-decoration-none mb-2">¿Qué hacemos?</a>
       <a href="#losCreadores" class="text-white text-decoration-none mb-2">Los Creadores</a>
@@ -673,6 +672,9 @@
 
   </div>
 </section>
+
+
+
 
   <a href="#top" class="position-fixed end-0 bottom-0 m-4 text-white" style="font-size: 2rem; z-index: 1000;" aria-label="Volver al inicio">
     <i class="bi bi-arrow-up-circle-fill"></i>
